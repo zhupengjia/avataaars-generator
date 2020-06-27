@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+
+    avataaars:
+        image: zhupengjia/avataaars_generator:latest
+        restart: always
+
+
+networks:
+    default:
+        external:
+            name: wordpress_default
+              
